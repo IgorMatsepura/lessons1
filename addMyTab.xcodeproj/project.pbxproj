@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		380A65E6204F1A5E005AD831 /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380A65E5204F1A5E005AD831 /* PlayersViewController.swift */; };
+		380A65E8204F1B6F005AD831 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380A65E7204F1B6F005AD831 /* Player.swift */; };
+		380A65EA204F1BFA005AD831 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380A65E9204F1BFA005AD831 /* SampleData.swift */; };
 		382B8CBA204EDEBD007A8554 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382B8CB9204EDEBD007A8554 /* AppDelegate.swift */; };
 		382B8CBC204EDEBD007A8554 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382B8CBB204EDEBD007A8554 /* ViewController.swift */; };
 		382B8CBF204EDEBD007A8554 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 382B8CBD204EDEBD007A8554 /* Main.storyboard */; };
 		382B8CC1204EDEBD007A8554 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 382B8CC0204EDEBD007A8554 /* Assets.xcassets */; };
 		382B8CC4204EDEBD007A8554 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 382B8CC2204EDEBD007A8554 /* LaunchScreen.storyboard */; };
+		389D798E204F368D007B40B4 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389D798D204F368D007B40B4 /* PlayerCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		380A65E5204F1A5E005AD831 /* PlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
+		380A65E7204F1B6F005AD831 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		380A65E9204F1BFA005AD831 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		382B8CB6204EDEBD007A8554 /* addMyTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = addMyTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		382B8CB9204EDEBD007A8554 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		382B8CBB204EDEBD007A8554 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,7 @@
 		382B8CC0204EDEBD007A8554 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		382B8CC3204EDEBD007A8554 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		382B8CC5204EDEBD007A8554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		389D798D204F368D007B40B4 /* PlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				382B8CB9204EDEBD007A8554 /* AppDelegate.swift */,
 				382B8CBB204EDEBD007A8554 /* ViewController.swift */,
 				382B8CBD204EDEBD007A8554 /* Main.storyboard */,
+				389D798D204F368D007B40B4 /* PlayerCell.swift */,
+				380A65E5204F1A5E005AD831 /* PlayersViewController.swift */,
+				380A65E7204F1B6F005AD831 /* Player.swift */,
+				380A65E9204F1BFA005AD831 /* SampleData.swift */,
 				382B8CC0204EDEBD007A8554 /* Assets.xcassets */,
 				382B8CC2204EDEBD007A8554 /* LaunchScreen.storyboard */,
 				382B8CC5204EDEBD007A8554 /* Info.plist */,
@@ -136,8 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				389D798E204F368D007B40B4 /* PlayerCell.swift in Sources */,
+				380A65E8204F1B6F005AD831 /* Player.swift in Sources */,
 				382B8CBC204EDEBD007A8554 /* ViewController.swift in Sources */,
 				382B8CBA204EDEBD007A8554 /* AppDelegate.swift in Sources */,
+				380A65EA204F1BFA005AD831 /* SampleData.swift in Sources */,
+				380A65E6204F1A5E005AD831 /* PlayersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
